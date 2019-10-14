@@ -1,0 +1,29 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "Производственный календарь в формате XML. \r Года: 2013-2020",
+  "main": "index.js",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-pretty-data": "^0.1.2",
+    "gulp-xmltojson": "^1.0.2"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contributorpw/data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contributorpw/data/issues"
+  },
+  "homepage": "https://github.com/contributorpw/data#readme"
+}
