@@ -1,1 +1,279 @@
-{"declaration":{"attributes":{"version":"1.0","encoding":"UTF-8"}},"elements":[{"type":"element","name":"calendar","attributes":{"year":"2016","lang":"ru","date":"2015.09.30"},"elements":[{"type":"element","name":"holidays","elements":[{"type":"element","name":"holiday","attributes":{"id":"1","title":"Новогодние каникулы (в ред. Федерального закона от 23.04.2012 № 35-ФЗ)"}},{"type":"element","name":"holiday","attributes":{"id":"2","title":"Рождество Христово"}},{"type":"element","name":"holiday","attributes":{"id":"3","title":"День защитника Отечества"}},{"type":"element","name":"holiday","attributes":{"id":"4","title":"Международный женский день"}},{"type":"element","name":"holiday","attributes":{"id":"5","title":"Праздник Весны и Труда"}},{"type":"element","name":"holiday","attributes":{"id":"6","title":"День Победы"}},{"type":"element","name":"holiday","attributes":{"id":"7","title":"День России"}},{"type":"element","name":"holiday","attributes":{"id":"8","title":"День народного единства"}}]},{"type":"element","name":"days","elements":[{"type":"element","name":"day","attributes":{"d":"01.01","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.02","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.03","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.04","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.05","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.06","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.07","t":"1","h":"2"}},{"type":"element","name":"day","attributes":{"d":"01.08","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"02.20","t":"2"}},{"type":"element","name":"day","attributes":{"d":"02.22","t":"1"}},{"type":"element","name":"day","attributes":{"d":"02.23","t":"1","h":"3"}},{"type":"element","name":"day","attributes":{"d":"03.07","t":"1"}},{"type":"element","name":"day","attributes":{"d":"03.08","t":"1","h":"4"}},{"type":"element","name":"day","attributes":{"d":"05.01","t":"1","h":"5"}},{"type":"element","name":"day","attributes":{"d":"05.02","t":"1"}},{"type":"element","name":"day","attributes":{"d":"05.03","t":"1"}},{"type":"element","name":"day","attributes":{"d":"05.09","t":"1","h":"6"}},{"type":"element","name":"day","attributes":{"d":"06.12","t":"1","h":"7"}},{"type":"element","name":"day","attributes":{"d":"06.13","t":"1"}},{"type":"element","name":"day","attributes":{"d":"11.03","t":"2"}},{"type":"element","name":"day","attributes":{"d":"11.04","t":"1","h":"8"}}]}]}]}
+{
+  "declaration": {
+    "attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "elements": [
+    {
+      "type": "element",
+      "name": "calendar",
+      "attributes": {
+        "year": "2016",
+        "lang": "ru",
+        "date": "2015.09.30"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "holidays",
+          "elements": [
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "1",
+                "title": "Новогодние каникулы (в ред. Федерального закона от 23.04.2012 № 35-ФЗ)"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "2",
+                "title": "Рождество Христово"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "3",
+                "title": "День защитника Отечества"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "4",
+                "title": "Международный женский день"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "5",
+                "title": "Праздник Весны и Труда"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "6",
+                "title": "День Победы"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "7",
+                "title": "День России"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "8",
+                "title": "День народного единства"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "days",
+          "elements": [
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.01",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.02",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.03",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.04",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.05",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.06",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.07",
+                "t": "1",
+                "h": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.08",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "02.20",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "02.22",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "02.23",
+                "t": "1",
+                "h": "3"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "03.07",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "03.08",
+                "t": "1",
+                "h": "4"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.01",
+                "t": "1",
+                "h": "5"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.02",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.03",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.09",
+                "t": "1",
+                "h": "6"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "06.12",
+                "t": "1",
+                "h": "7"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "06.13",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "11.03",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "11.04",
+                "t": "1",
+                "h": "8"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

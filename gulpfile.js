@@ -15,7 +15,7 @@ gulp.task(
   gulp.series('clear', 'copy', function() {
     return gulp
       .src('./ru/**/*.xml', { src: './ru' })
-      .pipe(xmltojson({ compact: false, ignoreAttributes: false }))
+      .pipe(xmltojson({ compact: false, spaces: 2, ignoreAttributes: false }))
       .pipe(gulp.dest('./dist'));
   })
 );

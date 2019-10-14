@@ -1,1 +1,319 @@
-{"declaration":{"attributes":{"version":"1.0","encoding":"UTF-8"}},"elements":[{"type":"element","name":"calendar","attributes":{"year":"2018","lang":"en","date":"2017.10.23"},"elements":[{"type":"element","name":"holidays","elements":[{"type":"element","name":"holiday","attributes":{"id":"1","title":"New Year's Day"}},{"type":"element","name":"holiday","attributes":{"id":"2","title":"Orthodox Christmas Day"}},{"type":"element","name":"holiday","attributes":{"id":"3","title":"Defender of the Fatherland Day"}},{"type":"element","name":"holiday","attributes":{"id":"4","title":"International Women's Day"}},{"type":"element","name":"holiday","attributes":{"id":"5","title":"Spring and Labor Day"}},{"type":"element","name":"holiday","attributes":{"id":"6","title":"Victory Day"}},{"type":"element","name":"holiday","attributes":{"id":"7","title":"Russia Day"}},{"type":"element","name":"holiday","attributes":{"id":"8","title":"Unity Day"}}]},{"type":"element","name":"days","elements":[{"type":"element","name":"day","attributes":{"d":"01.01","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.02","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.03","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.04","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.05","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.06","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"01.07","t":"1","h":"2"}},{"type":"element","name":"day","attributes":{"d":"01.08","t":"1","h":"1"}},{"type":"element","name":"day","attributes":{"d":"02.22","t":"2"}},{"type":"element","name":"day","attributes":{"d":"02.23","t":"1","h":"3"}},{"type":"element","name":"day","attributes":{"d":"03.07","t":"2"}},{"type":"element","name":"day","attributes":{"d":"03.08","t":"1","h":"4"}},{"type":"element","name":"day","attributes":{"d":"03.09","t":"1"}},{"type":"element","name":"day","attributes":{"d":"04.28","t":"2"}},{"type":"element","name":"day","attributes":{"d":"04.30","t":"1"}},{"type":"element","name":"day","attributes":{"d":"05.01","t":"1","h":"5"}},{"type":"element","name":"day","attributes":{"d":"05.02","t":"1"}},{"type":"element","name":"day","attributes":{"d":"05.08","t":"2"}},{"type":"element","name":"day","attributes":{"d":"05.09","t":"1","h":"6"}},{"type":"element","name":"day","attributes":{"d":"06.09","t":"2"}},{"type":"element","name":"day","attributes":{"d":"06.11","t":"1"}},{"type":"element","name":"day","attributes":{"d":"06.12","t":"1","h":"7"}},{"type":"element","name":"day","attributes":{"d":"11.04","t":"1","h":"8"}},{"type":"element","name":"day","attributes":{"d":"11.05","t":"1"}},{"type":"element","name":"day","attributes":{"d":"12.29","t":"2"}},{"type":"element","name":"day","attributes":{"d":"12.31","t":"1"}}]}]}]}
+{
+  "declaration": {
+    "attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "elements": [
+    {
+      "type": "element",
+      "name": "calendar",
+      "attributes": {
+        "year": "2018",
+        "lang": "en",
+        "date": "2017.10.23"
+      },
+      "elements": [
+        {
+          "type": "element",
+          "name": "holidays",
+          "elements": [
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "1",
+                "title": "New Year's Day"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "2",
+                "title": "Orthodox Christmas Day"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "3",
+                "title": "Defender of the Fatherland Day"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "4",
+                "title": "International Women's Day"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "5",
+                "title": "Spring and Labor Day"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "6",
+                "title": "Victory Day"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "7",
+                "title": "Russia Day"
+              }
+            },
+            {
+              "type": "element",
+              "name": "holiday",
+              "attributes": {
+                "id": "8",
+                "title": "Unity Day"
+              }
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "days",
+          "elements": [
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.01",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.02",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.03",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.04",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.05",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.06",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.07",
+                "t": "1",
+                "h": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "01.08",
+                "t": "1",
+                "h": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "02.22",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "02.23",
+                "t": "1",
+                "h": "3"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "03.07",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "03.08",
+                "t": "1",
+                "h": "4"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "03.09",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "04.28",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "04.30",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.01",
+                "t": "1",
+                "h": "5"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.02",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.08",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "05.09",
+                "t": "1",
+                "h": "6"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "06.09",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "06.11",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "06.12",
+                "t": "1",
+                "h": "7"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "11.04",
+                "t": "1",
+                "h": "8"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "11.05",
+                "t": "1"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "12.29",
+                "t": "2"
+              }
+            },
+            {
+              "type": "element",
+              "name": "day",
+              "attributes": {
+                "d": "12.31",
+                "t": "1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
