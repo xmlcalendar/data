@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Производственный календарь в формате XML на 2019 год">
+	<meta name="keywords" content="Производственный календарь, календарь" />
+	<title>Производственный календарь в XML</title>
+</head>
+<body>
+<h1>Производственный календарь в XML-формате</h1>
+В производственном календаре отмечают все рабочие и нерабочие дни (выходные и праздники).
+На основании производственного календаря ведется расчет нормы рабочего времени за день, месяц, и год.
+На данном сайте представлен производственный календарь в формате XML для использования его в приложениях.
+<ul>
+    <li><a href="data/ru/2020/calendar.xml">Производственный календарь в формате xml на 2020 г.</a>&nbsp;(<a
+			href="data/ru/2020/calendar.xml.gz">gz</a>, <a href="data/ru/2020/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2020"> html </a>)
+	</li>
+    <li><a href="data/ru/2019/calendar.xml">Производственный календарь в формате xml на 2019 г.</a>&nbsp;(<a
+			href="data/ru/2019/calendar.xml.gz">gz</a>, <a href="data/ru/2019/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2019"> html </a>)
+	</li>
+    <li><a href="data/ru/2018/calendar.xml">Производственный календарь в формате xml на 2018 г.</a>&nbsp;(<a
+			href="data/ru/2018/calendar.xml.gz">gz</a>, <a href="data/ru/2018/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2018"> html </a>)
+	</li>
+    <li><a href="data/ru/2017/calendar.xml">Производственный календарь в формате xml на 2017 г.</a>&nbsp;(<a
+			href="data/ru/2017/calendar.xml.gz">gz</a>, <a href="data/ru/2017/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2017"> html </a>)
+	</li>
+	<li><a href="data/ru/2016/calendar.xml">Производственный календарь в формате xml на 2016 г.</a>&nbsp;(<a
+			href="data/ru/2016/calendar.xml.gz">gz</a>, <a href="data/ru/2016/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2016"> html </a>)
+	</li>
+	<li><a href="data/ru/2015/calendar.xml">Производственный календарь в формате xml на 2015 г.</a>&nbsp;(<a
+			href="data/ru/2015/calendar.xml.gz">gz</a>, <a href="data/ru/2015/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2015"> html </a>)
+	</li>
+	<li><a href="data/ru/2014/calendar.xml">Производственный календарь в формате xml на 2014 г.</a>&nbsp;(<a
+			href="data/ru/2014/calendar.xml.gz">gz</a>, <a href="data/ru/2014/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2014"> html </a>)
+	</li>
+	<li><a href="data/ru/2013/calendar.xml">Производственный календарь в формате xml на 2013 г.</a>&nbsp;(<a
+			href="data/ru/2013/calendar.xml.gz">gz</a>, <a href="data/ru/2013/calendar.xml.bz2">bz2</a>, <a href="html.php?y=2013"> html </a>)
+	</li>
+</ul>
+
+<h2>Описание XML формата производственного календаря</h2>
+Календарь представлен в <a href="http://ru.wikipedia.org/wiki/XML">XML-формате:</a>
+<pre>
+&lt;!--
+year    - год на который сформирован календарь
+lang    - язык на котором представлены названия праздников
+date    - дата формирования xml-календаря в формате ГГГГ.ММ.ДД
+--&gt;
+&lt;calendar year=&quot;2014&quot; lang=&quot;ru&quot; date=&quot;2014.01.01&quot;&gt;
+	&lt;!--
+		holidays - Список праздников
+		id - идентификатор праздника
+		title - название праздника
+	--&gt;
+	&lt;holidays&gt;
+		&lt;holiday id=&quot;1&quot; title=&quot;Новогодние каникулы&quot; /&gt;
+		&lt;holiday id=&quot;2&quot; title=&quot;Рождество Христово&quot; /&gt;                        
+		&lt;holiday id=&quot;3&quot; title=&quot;День защитника Отечества&quot; /&gt;
+		&lt;holiday id=&quot;4&quot; title=&quot;Международный женский день&quot; /&gt;
+		&lt;holiday id=&quot;5&quot; title=&quot;Праздник Весны и Труда&quot; /&gt;
+		&lt;holiday id=&quot;6&quot; title=&quot;День Победы&quot; /&gt;
+		&lt;holiday id=&quot;7&quot; title=&quot;День России&quot; /&gt;
+		&lt;holiday id=&quot;8&quot; title=&quot;День народного единства&quot; /&gt;
+	&lt;/holidays&gt;
+	&lt;!--
+		days - праздники/короткие дни/рабочие дни (суббота либо воскресенье)
+		d - день (формат ММ.ДД)
+		t - тип дня: 1 - выходной день, 2 - рабочий и сокращенный (может быть использован для любого дня недели), 3 - рабочий день (суббота/воскресенье)
+		h - номер праздника (ссылка на атрибут id тэга holiday)		
+		суббота и воскресенье считаются выходными, если нет тегов day с атрибутом t=2 и t=3 за этот день
+	--&gt;
+	&lt;days&gt;
+		&lt;day d=&quot;01.01&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.02&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.03&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.04&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.05&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.06&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.07&quot; t=&quot;1&quot; h=&quot;2&quot; /&gt;
+		&lt;day d=&quot;01.08&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;02.23&quot; t=&quot;1&quot; h=&quot;3&quot; /&gt;
+		&lt;day d=&quot;02.24&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;03.07&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;03.08&quot; t=&quot;1&quot; h=&quot;4&quot; /&gt;
+		&lt;day d=&quot;03.10&quot; t=&quot;1&quot; /&gt;
+		&lt;day d=&quot;04.30&quot; t=&quot;2&quot; /&gt;        
+		&lt;day d=&quot;05.01&quot; t=&quot;1&quot; h=&quot;5&quot; /&gt;
+		&lt;day d=&quot;05.02&quot; t=&quot;1&quot; /&gt;
+		&lt;day d=&quot;05.08&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;05.09&quot; t=&quot;1&quot; h=&quot;6&quot; /&gt;
+		&lt;day d=&quot;06.11&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;06.12&quot; t=&quot;1&quot; h=&quot;7&quot; /&gt;
+		&lt;day d=&quot;06.13&quot; t=&quot;1&quot; /&gt;
+		&lt;day d=&quot;11.04&quot; t=&quot;1&quot; h=&quot;8&quot; /&gt;
+	&lt;/days&gt;
+&lt;/calendar&gt;</pre>
+<h3>Описание XML формата производственного календаря (с учетом региональных праздников)</h3>
+<pre>
+&lt;!--
+year    - год на который сформирован календарь
+lang    - язык на котором представлены названия праздников
+date    - дата формирования xml-календаря в формате ГГГГ.ММ.ДД
+--&gt;
+&lt;calendar year=&quot;2014&quot; lang=&quot;ru&quot; date=&quot;2014.01.01&quot;&gt;
+	&lt;!--
+		regions - список регионов
+		id      - идентификатор региона
+		title   - название региона
+	--&gt;
+	&lt;regions&gt;
+		&lt;region id=&quot;2&quot; title=&quot;Республика Башкортостан&quot; /&gt;
+		&lt;region id=&quot;16&quot; title=&quot;Республика Татарстан&quot; /&gt;
+	&lt;/regions&gt;
+	&lt;!--
+		holidays - список праздников
+		id       - идентификатор праздника
+		title    - название праздника
+	--&gt;
+	&lt;holidays&gt;
+		&lt;holiday id=&quot;1&quot; title=&quot;Новогодние каникулы&quot; /&gt;
+		&lt;holiday id=&quot;2&quot; title=&quot;Рождество Христово&quot; /&gt;
+		&lt;holiday id=&quot;3&quot; title=&quot;День защитника Отечества&quot; /&gt;
+		&lt;holiday id=&quot;4&quot; title=&quot;Международный женский день&quot; /&gt;
+		&lt;holiday id=&quot;5&quot; title=&quot;Праздник Весны и Труда&quot; /&gt;
+		&lt;holiday id=&quot;6&quot; title=&quot;День Победы&quot; /&gt;
+		&lt;holiday id=&quot;7&quot; title=&quot;День России&quot; /&gt;
+		&lt;holiday id=&quot;8&quot; title=&quot;День народного единства&quot; /&gt;
+		&lt;holiday id=&quot;9&quot; title=&quot;Ураза – байрам&quot; /&gt;
+		&lt;holiday id=&quot;11&quot; title=&quot;День Республики Башкортостан&quot; /&gt;
+	&lt;/holidays&gt;
+	&lt;!--
+		days - праздники/короткие дни/рабочие дни (суббота либо воскресенье)
+		d - день (формат ММ.ДД)
+		t - тип дня: 1 - выходной день, 2 - короткий день, 3 - рабочий день (суббота/воскресен)
+		h - номер праздника (ссылка на атрибут id тэга holiday)
+		r - список регионов в которых встречается этот праздник, если поле не задано, то встречается
+		    во всех регионах
+		суббота и воскресенье считаются выходными, если нет тегов day с атрибутом t=2 и t=3 за этот день
+	--&gt;
+	&lt;days&gt;
+		&lt;day d=&quot;01.01&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.02&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.03&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.04&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.05&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.06&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;01.07&quot; t=&quot;1&quot; h=&quot;2&quot; /&gt;
+		&lt;day d=&quot;01.08&quot; t=&quot;1&quot; h=&quot;1&quot; /&gt;
+		&lt;day d=&quot;02.23&quot; t=&quot;1&quot; h=&quot;3&quot; /&gt;
+		&lt;day d=&quot;02.24&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;03.07&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;03.08&quot; t=&quot;1&quot; h=&quot;4&quot; /&gt;
+		&lt;day d=&quot;03.10&quot; t=&quot;1&quot; /&gt;
+		&lt;day d=&quot;04.30&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;05.01&quot; t=&quot;1&quot; h=&quot;5&quot; /&gt;
+		&lt;day d=&quot;05.02&quot; t=&quot;1&quot; /&gt;
+		&lt;day d=&quot;05.08&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;05.09&quot; t=&quot;1&quot; h=&quot;6&quot; /&gt;
+		&lt;day d=&quot;06.11&quot; t=&quot;2&quot; /&gt;
+		&lt;day d=&quot;06.12&quot; t=&quot;1&quot; h=&quot;7&quot; /&gt;
+		&lt;day d=&quot;06.13&quot; t=&quot;1&quot; /&gt;
+		&lt;day d=&quot;07.16&quot; t=&quot;2&quot; r=&quot;2,16&quot; /&gt;
+		&lt;day d=&quot;07.17&quot; t=&quot;1&quot; h=&quot;9&quot; r=&quot;2,16&quot; /&gt;
+		&lt;day d=&quot;11.04&quot; t=&quot;1&quot; h=&quot;8&quot; /&gt;
+		&lt;day d=&quot;10.11&quot; t=&quot;1&quot; h=&quot;11&quot; r=&quot;2&quot; /&gt;
+	&lt;/days&gt;
+&lt;/calendar&gt;</pre>
+<hr/>
+<footer>
+	Copyright © 2019</br>
+	Пишите отзывы и предложения на info@xmlcalendar.ru</br>
+	Вы можете добавить новый производственный календарь либо исправить ошибку в существующем на 
+	<a href="https://github.com/xmlcalendar/data">github.com/xmlcalendar</a><br/>
+	<a target="_new" href="https://timeweb.com/ru/?i=27012&a=141"><img style="border:0px;" src="https://timeweb.com/ru/img/b/88x31/88x31-2.png"></a>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function () {
+				try {
+					w.yaCounter24589403 = new Ya.Metrika({id: 24589403,
+						clickmap: true,
+						trackLinks: true,
+						accurateTrackBounce: true});
+				} catch (e) {
+				}
+			});
+  
+			var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () {
+					n.parentNode.insertBefore(s, n);
+				};
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else {
+				f();
+			}
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript>
+		<div><img src="//mc.yandex.ru/watch/24589403" style="position:absolute; left:-9999px;" alt=""/></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-49829928-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+</footer>
+</body>
+</html>
