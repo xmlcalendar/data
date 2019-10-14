@@ -2,7 +2,7 @@
 <calendar year="2014" lang="en" date="2014.08.31">
     <holidays>
         <holiday id="1" title="New Year's Day" />
-        <holiday id="2" title="Orthodox Christmas Day" />                        
+        <holiday id="2" title="Orthodox Christmas Day" />
         <holiday id="3" title="Defender of the Fatherland Day" />
         <holiday id="4" title="International Women's Day" />
         <holiday id="5" title="Spring and Labor Day" />
@@ -24,7 +24,7 @@
         <day d="03.07" t="2" />
         <day d="03.08" t="1" h="4" />
         <day d="03.10" t="1" />
-        <day d="04.30" t="2" />        
+        <day d="04.30" t="2" />
         <day d="05.01" t="1" h="5" />
         <day d="05.02" t="1" />
         <day d="05.08" t="2" />
