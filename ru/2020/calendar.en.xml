@@ -12,6 +12,8 @@
         <holiday id="9" title="Non-working week (Presidential Decree 25.03.2020 №206)" />
         <holiday id="10" title="Non-working days (Presidential Decree 02.04.2020 №239)" />
 		<holiday id="11" title="Non-working days (Presidential Decree 28.04.2020 №294)" />
+		<holiday id="12" title="Non-working day (Presidential Decree 29.05.2020 №345)" />
+        <holiday id="13" title="Russian constitutional referendum (Presidential Decree 01.06.2020 №354)" />
     </holidays>
     <days>
         <day d="01.01" t="1" h="1" />
@@ -71,6 +73,8 @@
         <day d="05.11" t="1" />
         <day d="06.11" t="2" />
         <day d="06.12" t="1" h="7" />
+		<day d="06.24" t="1" h="12" />
+        <day d="07.01" t="1" h="13" />
         <day d="11.03" t="2" />
         <day d="11.04" t="1" h="8" />
         <day d="12.31" t="2" />
