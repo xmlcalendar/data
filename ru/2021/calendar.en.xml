@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<calendar year="2021" lang="ru" date="2020.10.25">
+<calendar year="2021" lang="ru" date="2020.11.17">
     <holidays>
         <holiday id="1" title="New Year's Day" />
         <holiday id="2" title="Orthodox Christmas Day" />
@@ -20,7 +20,7 @@
         <day d="01.07" t="1" h="2" />
         <day d="01.08" t="1" h="1" />
         <day d="02.20" t="2" />
-        <day d="02.22" t="1" />
+        <day d="02.22" t="1" f="02.20" />
         <day d="02.23" t="1" h="3" />
         <day d="03.08" t="1" h="4" />
         <day d="04.30" t="2" />
@@ -33,7 +33,7 @@
         <day d="06.14" t="1" />
         <day d="11.03" t="2" />
         <day d="11.04" t="1" h="8" />
-        <day d="11.05" t="1" />
-        <day d="12.31" t="1" />
+        <day d="11.05" t="1" f="01.02" />
+        <day d="12.31" t="1" f="01.03" />
     </days>
 </calendar>
