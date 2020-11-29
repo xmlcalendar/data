@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendar year="2019" lang="ru" date="2020.11.30">
+    <holidays>
+        <holiday id="1" title="Новый год"/>
+        <holiday id="2" title="Рождество Христово"/>
+        <holiday id="3" title="Международный женский день"/>
+        <holiday id="4" title="Пасха"/>
+        <holiday id="5" title="День труда"/>
+        <holiday id="6" title="День Победы"/>
+        <holiday id="7" title="Троица"/>
+        <holiday id="8" title="День Конституции Украины"/>
+        <holiday id="9" title="День независимости Украины"/>
+        <holiday id="10" title="День защитника Украины"/>
+        <holiday id="11" title="Рождество Христово"/>
+    </holidays>
+    <days>
+        <day d="01.01" t="1" h="1"/>
+        <day d="01.07" t="1" h="2"/>
+        <day d="03.07" t="2"/>
+        <day d="03.08" t="1" h="3"/>
+        <day d="04.28" t="1" h="4"/>
+        <day d="04.29" t="1" f="04.28"/>
+        <day d="04.30" t="1" f="04.11"/>
+        <day d="05.01" t="1" h="5"/>
+        <day d="05.08" t="2"/>
+        <day d="05.09" t="1" h="6"/>
+        <day d="05.11" t="2"/>
+        <day d="06.16" t="1" h="7"/>
+        <day d="06.17" t="1" f="06.16"/>
+        <day d="06.27" t="2"/>
+        <day d="06.28" t="1" h="8"/>
+        <day d="08.23" t="2"/>
+        <day d="08.24" t="1" h="9"/>
+        <day d="08.26" t="1" f="08.24"/>
+        <day d="10.14" t="1" h="10"/>
+        <day d="12.24" t="2"/>
+        <day d="12.25" t="1" h="11"/>
+        <day d="12.28" t="2"/>
+        <day d="12.30" t="1" f="12.21"/>
+        <day d="12.31" t="1" f="12.28"/>
+    </days>
+</calendar>
