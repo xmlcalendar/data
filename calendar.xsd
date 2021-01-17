@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema attributeFormDefault="unqualified" xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+        xmlns:cal="http://www.xmlcalendar.ru" targetNamespace="http://www.xmlcalendar.ru">
+    <element name="calendar" type="cal:calendarType"/>
+
+    <simpleType name="yearType">
+        <restriction base="short">
+            <pattern value="[0-9]{4}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="langType">
+        <restriction base="string">
+            <pattern value="[a-z]{2}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="dateType">
+        <restriction base="string">
+            <pattern value="[0-9]{4}\.[0-9]{2}\.[0-9]{2}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="simpleDayType">
+        <restriction base="string">
+            <pattern value="[0-9]{2}\.[0-9]{2}"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="holidayType">
+        <simpleContent>
+            <extension base="string">
+                <attribute type="byte" name="id" use="required"/>
+                <attribute type="string" name="title" use="required"/>
+            </extension>
+        </simpleContent>
+    </complexType>
+    <complexType name="holidaysType">
+        <sequence>
+            <element type="cal:holidayType" name="holiday" maxOccurs="unbounded" minOccurs="0"/>
+        </sequence>
+    </complexType>
+    <complexType name="dayType">
+        <simpleContent>
+            <extension base="string">
+                <attribute type="cal:simpleDayType" name="d" use="required"/>
+                <attribute type="byte" name="t" use="required"/>
+                <attribute type="byte" name="h" use="optional"/>
+                <attribute type="string" name="f" use="optional"/>
+            </extension>
+        </simpleContent>
+    </complexType>
+    <complexType name="daysType">
+        <sequence>
+            <element type="cal:dayType" name="day" maxOccurs="unbounded" minOccurs="0"/>
+        </sequence>
+    </complexType>
+    <complexType name="calendarType">
+        <sequence>
+            <element type="cal:holidaysType" name="holidays"/>
+            <element type="cal:daysType" name="days"/>
+        </sequence>
+        <attribute type="cal:yearType" name="year" use="required"/>
+        <attribute type="cal:langType" name="lang" use="required"/>
+        <attribute type="cal:dateType" name="date" use="required"/>
+    </complexType>
+</schema>
