@@ -9,7 +9,7 @@
         <holiday id="6" title="Victory Day" />
         <holiday id="7" title="Russia Day" />
         <holiday id="8" title="Unity Day" />
-        <holiday id="9" title="Non-working week (Presidential Decree 23.04.2021 №242)" />
+        <holiday id="9" title="Non-working days (Presidential Decree 23.04.2021 №242)" />
     </holidays>
     <days>
         <day d="01.01" t="1" h="1" />
