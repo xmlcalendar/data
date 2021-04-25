@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<calendar year="2021" lang="ru" date="2020.11.17">
+<calendar year="2021" lang="en" date="2021.04.25">
     <holidays>
         <holiday id="1" title="New Year's Day" />
         <holiday id="2" title="Orthodox Christmas Day" />
@@ -9,6 +9,7 @@
         <holiday id="6" title="Victory Day" />
         <holiday id="7" title="Russia Day" />
         <holiday id="8" title="Unity Day" />
+        <holiday id="9" title="Non-working week (Presidential Decree 23.04.2021 №242)" />
     </holidays>
     <days>
         <day d="01.01" t="1" h="1" />
@@ -26,6 +27,10 @@
         <day d="04.30" t="2" />
         <day d="05.01" t="1" h="5" />
         <day d="05.03" t="1" />
+        <day d="05.04" t="1" h="9" />
+        <day d="05.05" t="1" h="9" />
+        <day d="05.06" t="1" h="9" />
+        <day d="05.07" t="1" h="9" />
         <day d="05.09" t="1" h="6" />
         <day d="05.10" t="1" />
         <day d="06.11" t="2" />
