@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendar year="2019" lang="ru" date="2020.11.30">
+    <holidays>
+        <holiday id="1" title="Новый год"/>
+        <holiday id="2" title="День женщин"/>
+        <holiday id="3" title="Праздник Навруз"/>
+        <holiday id="4" title="День Памяти и Почестей"/>
+        <holiday id="5" title="Руза хайит (Ийд-ал-Фитр)"/>
+        <holiday id="6" title="Курбан хайит (Ийд-ал-Адха)"/>
+        <holiday id="7" title="День Независимости"/>
+        <holiday id="8" title="День учителя и наставника"/>
+        <holiday id="9" title="День Конституции"/>
+    </holidays>
+    <days>
+        <day d="01.01" t="1" h="1"/>
+        <day d="01.02" t="1"/>
+        <day d="01.03" t="1" f="01.05"/>
+        <day d="03.08" t="1" h="2"/>
+        <day d="03.21" t="1" h="3"/>
+        <day d="03.22" t="1"/>
+        <day d="05.09" t="1" h="4"/>
+        <day d="06.05" t="1" h="5"/>
+        <day d="06.06" t="1" f="06.01"/>
+        <day d="08.12" t="1" h="6"/>
+        <day d="09.01" t="1" h="7"/>
+        <day d="09.02" t="1"/>
+        <day d="09.03" t="1" f="09.07"/>
+        <day d="10.01" t="1" h="8"/>
+        <day d="12.08" t="1" h="9"/>
+        <day d="12.31" t="1" f="12.28"/>
+    </days>
+</calendar>

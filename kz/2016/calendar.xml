@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendar year="2016" lang="ru" date="2020.11.30">
+    <holidays>
+        <holiday id="1" title="Новый год"/>
+        <holiday id="2" title="Рождество Христово"/>
+        <holiday id="3" title="Международный женский день"/>
+        <holiday id="4" title="Наурыз мейрамы"/>
+        <holiday id="5" title="Праздник единства народа Казахстана"/>
+        <holiday id="6" title="День защитника Отечества"/>
+        <holiday id="7" title="День Победы"/>
+        <holiday id="8" title="День Столицы"/>
+        <holiday id="9" title="День Конституции РК"/>
+        <holiday id="10" title="Курбан Айт"/>
+        <holiday id="11" title="День Первого Президента РК"/>
+        <holiday id="12" title="День Независимости"/>
+    </holidays>
+    <days>
+        <day d="01.01" t="1" h="1"/>
+        <day d="01.02" t="1" h="1"/>
+        <day d="01.04" t="1" f="01.02"/>
+        <day d="01.07" t="1" h="2"/>
+        <day d="03.07" t="1" f="03.05"/>
+        <day d="03.08" t="1" h="3"/>
+        <day d="03.21" t="1" h="4"/>
+        <day d="03.22" t="1" h="4"/>
+        <day d="03.23" t="1" h="4"/>
+        <day d="05.01" t="1" h="5"/>
+        <day d="05.02" t="1" f="05.01"/>
+        <day d="05.07" t="1" h="6"/>
+        <day d="05.09" t="1" h="7"/>
+        <day d="05.10" t="1" f="05.07"/>
+        <day d="07.06" t="1" h="8"/>
+        <day d="08.30" t="1" h="9"/>
+        <day d="09.12" t="1" h="10"/>
+        <day d="12.01" t="1" h="11"/>
+        <day d="12.16" t="1" h="12"/>
+        <day d="12.17" t="1" h="12"/>
+        <day d="12.19" t="1" f="12.17"/>
+    </days>
+</calendar>
