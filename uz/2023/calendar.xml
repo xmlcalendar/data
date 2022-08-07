@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendar year="2023" lang="ru" date="2022.08.07">
+    <holidays>
+        <holiday id="1" title="Новый год"/>
+        <holiday id="2" title="День женщин"/>
+        <holiday id="3" title="Праздник Навруз"/>
+        <holiday id="4" title="День Памяти и Почестей"/>
+        <holiday id="5" title="День Независимости"/>
+        <holiday id="6" title="День учителя и наставника"/>
+        <holiday id="7" title="День Конституции"/>
+    </holidays>
+    <days>
+        <day d="01.01" t="1" h="1"/>
+        <day d="03.08" t="1" h="2"/>
+        <day d="03.21" t="1" h="3"/>
+        <day d="05.09" t="1" h="4"/>
+        <day d="09.01" t="1" h="5"/>
+        <day d="10.01" t="1" h="6"/>
+        <day d="12.08" t="1" h="7"/>
+    </days>
+</calendar>
