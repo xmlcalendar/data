@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<calendar year="2018" lang="en" date="2017.10.23">
+<calendar year="2018" lang="en" date="2017.10.23" country="ru">
     <holidays>
         <holiday id="1" title="New Year's Day" />
         <holiday id="2" title="Orthodox Christmas Day" />

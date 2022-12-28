@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<calendar year="2023" lang="ru" date="2022.08.07">
+<calendar year="2023" lang="ru" date="2022.08.07" country="uz">
     <holidays>
         <holiday id="1" title="Новый год"/>
         <holiday id="2" title="День женщин"/>
