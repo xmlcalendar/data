@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendar year="2024" lang="ru" date="2023.02.21" country="tatar">
+    <holidays>
+        <holiday id="1" title="Новогодние каникулы"/>
+        <holiday id="2" title="Рождество Христово"/>
+        <holiday id="3" title="День защитника Отечества"/>
+        <holiday id="4" title="Международный женский день"/>
+        <holiday id="5" title="Ураза-байрам"/>
+        <holiday id="6" title="Праздник Весны и Труда"/>
+        <holiday id="7" title="День Победы"/>
+        <holiday id="8" title="День России"/>
+        <holiday id="9" title="Курбан-байрам"/>
+        <holiday id="10" title="День Республики Татарстан"/>
+        <holiday id="11" title="День народного единства"/>
+        <holiday id="12" title="День Конституции Татарстана"/>
+    </holidays>
+    <days>
+        <day d="01.01" t="1"/>
+        <day d="01.02" t="1"/>
+        <day d="01.03" t="1"/>
+        <day d="01.04" t="1"/>
+        <day d="01.05" t="1"/>
+        <day d="01.06" t="1"/>
+        <day d="01.07" t="1"/>
+        <day d="02.22" t="2"/>
+        <day d="02.23" t="1"/>
+        <day d="03.07" t="1"/>
+        <day d="03.08" t="1"/>
+        <day d="04.30" t="2"/>
+        <day d="05.01" t="1"/>
+        <day d="05.02" t="1"/>
+        <day d="05.03" t="1"/> 
+        <day d="05.08" t="2"/>
+        <day d="05.09" t="1"/>
+        <day d="05.10" t="1"/>                 
+        <day d="06.03" t="2"/>  
+        <day d="06.04" t="1"/>
+        <day d="06.11" t="2"/>
+        <day d="06.12" t="1"/>
+        <day d="08.12" t="1"/>
+        <day d="08.29" t="2"/>
+        <day d="08.30" t="1"/>          
+        <day d="11.04" t="1"/>
+        <day d="11.05" t="2"/>
+        <day d="11.06" t="1"/>
+    </days>
+</calendar>
