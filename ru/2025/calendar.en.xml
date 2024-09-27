@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendar year="2025" lang="en" date="2024.09.27" country="ru">
+    <holidays>
+        <holiday id="1" title="New Year's Day" />
+        <holiday id="2" title="Orthodox Christmas Day" />
+        <holiday id="3" title="Defender of the Fatherland Day" />
+        <holiday id="4" title="International Women's Day" />
+        <holiday id="5" title="Spring and Labor Day" />
+        <holiday id="6" title="Victory Day" />
+        <holiday id="7" title="Russia Day" />
+        <holiday id="8" title="Unity Day" />
+    </holidays>
+    <days>
+        <day d="01.01" t="1" h="1"/>
+        <day d="01.02" t="1" h="1"/>
+        <day d="01.03" t="1" h="1"/>
+        <day d="01.04" t="1" h="1"/>
+        <day d="01.05" t="1" h="1"/>
+        <day d="01.06" t="1" h="1"/>
+        <day d="01.07" t="1" h="2"/>
+        <day d="01.08" t="1" h="1"/>
+        <day d="02.23" t="1" h="3"/>
+        <day d="03.07" t="2"/>
+        <day d="03.08" t="1" h="4"/>
+        <day d="04.30" t="2"/>
+        <day d="05.01" t="1" h="5"/>
+        <day d="05.02" t="1" f="01.04"/>
+        <day d="05.08" t="1" f="02.23"/>
+        <day d="05.09" t="1" h="6"/>
+        <day d="06.11" t="2"/>
+        <day d="06.12" t="1" h="7"/>
+        <day d="06.13" t="1" f="03.08"/>
+        <day d="11.01" t="3"/>
+        <day d="11.03" t="1" f="11.01"/>
+        <day d="11.04" t="1" h="8"/>
+        <day d="12.31" t="1" f="01.05"/>
+    </days>
+</calendar>
