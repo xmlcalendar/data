@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<calendar year="2025" lang="ru" date="2024.12.01">
+<calendar year="2025" lang="ru" date="2024.12.01"country="ru">
     <holidays>
         <holiday id="1" title="Новогодние каникулы"/>
         <holiday id="2" title="Рождество Христово"/>
